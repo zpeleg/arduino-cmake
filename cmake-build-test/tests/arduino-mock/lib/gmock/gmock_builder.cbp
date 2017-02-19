@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gmock_builder"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tests\;CMake Files\tests\arduino-mock\;CMake Files\tests\arduino-mock\lib\;CMake Files\tests\arduino-mock\lib\gtest\;CMake Files\tests\arduino-mock\lib\gmock\;CMake Files\DownloadProject\;CMake Files\cmake-build-test\;CMake Files\cmake-build-test\tests\;CMake Files\cmake-build-test\tests\arduino-mock\;CMake Files\cmake-build-test\tests\arduino-mock\lib\;CMake Files\cmake-build-test\tests\arduino-mock\lib\gtest\;CMake Files\cmake-build-test\tests\arduino-mock\lib\gtest\gtest\;CMake Files\cmake-build-test\tests\arduino-mock\lib\gtest\gtest\tmp\;CMake Files\cmake-build-test\tests\arduino-mock\lib\gmock\;CMake Files\cmake-build-test\tests\arduino-mock\lib\gmock\gmock\;CMake Files\cmake-build-test\tests\arduino-mock\lib\gmock\gmock\tmp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/tests/arduino-mock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\arduino-mock\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/tests/arduino-mock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\arduino-mock\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/tests/arduino-mock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\arduino-mock\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/tests/arduino-mock/lib/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\arduino-mock\lib\gtest\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/tests/arduino-mock/lib/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\arduino-mock\lib\gtest\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/tests/arduino-mock/lib/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\arduino-mock\lib\gtest\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/tests/arduino-mock/lib/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\arduino-mock\lib\gtest\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/tests/arduino-mock/lib/gmock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\arduino-mock\lib\gmock\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/tests/arduino-mock/lib/gmock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\arduino-mock\lib\gmock\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/tests/arduino-mock/lib/gmock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\arduino-mock\lib\gmock\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/tests/arduino-mock/lib/gmock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\arduino-mock\lib\gmock\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/DownloadProject/DownloadProject.cmake">
+			<Option virtualFolder="CMake Files\DownloadProject\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/DownloadProject/DownloadProject.CMakeLists.cmake.in">
+			<Option virtualFolder="CMake Files\DownloadProject\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/DownloadProject/DownloadProject.cmake">
+			<Option virtualFolder="CMake Files\DownloadProject\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/DownloadProject/DownloadProject.CMakeLists.cmake.in">
+			<Option virtualFolder="CMake Files\DownloadProject\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/tmp/gtest-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-test\tests\arduino-mock\lib\gtest\gtest\tmp\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/tmp/gtest-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-test\tests\arduino-mock\lib\gtest\gtest\tmp\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/tmp/gtest-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-test\tests\arduino-mock\lib\gtest\gtest\tmp\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/tmp/gtest-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-test\tests\arduino-mock\lib\gtest\gtest\tmp\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/gmock/tmp/gmock-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-test\tests\arduino-mock\lib\gmock\gmock\tmp\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/gmock/tmp/gmock-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-test\tests\arduino-mock\lib\gmock\gmock\tmp\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/gmock/tmp/gmock-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-test\tests\arduino-mock\lib\gmock\gmock\tmp\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/gmock/tmp/gmock-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-test\tests\arduino-mock\lib\gmock\gmock\tmp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

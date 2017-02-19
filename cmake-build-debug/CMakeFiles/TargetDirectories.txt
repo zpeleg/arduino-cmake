@@ -1,0 +1,12 @@
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-debug/example/CMakeFiles/edit_cache.dir
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-debug/example/CMakeFiles/rebuild_cache.dir
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-debug/example/CMakeFiles/upload.dir
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-debug/example/CMakeFiles/blink.dir
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-debug/example/CMakeFiles/blink-size.dir
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-debug/example/CMakeFiles/Changer_lib.dir
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-debug/example/CMakeFiles/blink-upload.dir
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-debug/example/CMakeFiles/blink_lib.dir
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-debug/example/CMakeFiles/uno_example.dir
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-debug/example/CMakeFiles/uno_CORE.dir

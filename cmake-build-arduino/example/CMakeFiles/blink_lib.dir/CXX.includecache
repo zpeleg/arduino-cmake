@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ziv/Code/arduino/arduino-cmake/example/ArduinoWrapper.h
+stdint.h
+-
+
+/home/ziv/Code/arduino/arduino-cmake/example/blink_lib.cpp
+ArduinoWrapper.h
+/home/ziv/Code/arduino/arduino-cmake/example/ArduinoWrapper.h
+blink_lib.h
+/home/ziv/Code/arduino/arduino-cmake/example/blink_lib.h
+
+/home/ziv/Code/arduino/arduino-cmake/example/blink_lib.h
+stdint.h
+-
+

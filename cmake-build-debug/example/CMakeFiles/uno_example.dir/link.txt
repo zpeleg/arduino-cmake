@@ -1,0 +1,2 @@
+/usr/bin/avr-ar qc libuno_example.a  CMakeFiles/uno_example.dir/PrintOnChange.cpp.obj CMakeFiles/uno_example.dir/blink.cpp.obj CMakeFiles/uno_example.dir/blink_lib.cpp.obj
+/usr/bin/avr-ranlib libuno_example.a

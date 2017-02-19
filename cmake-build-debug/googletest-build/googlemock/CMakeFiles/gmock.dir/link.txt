@@ -1,0 +1,2 @@
+/usr/bin/avr-ar qc libgmock.a  CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj CMakeFiles/gmock.dir/src/gmock-all.cc.obj
+/usr/bin/avr-ranlib libgmock.a

@@ -1,0 +1,14 @@
+# Target labels
+ googletest-download
+# Source files and their labels
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/googletest-download/CMakeFiles/googletest-download
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/googletest-download/CMakeFiles/googletest-download.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/googletest-download/CMakeFiles/googletest-download-complete.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-install.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-mkdir.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-download.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-patch.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-configure.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-build.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-test.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-skip-update.rule

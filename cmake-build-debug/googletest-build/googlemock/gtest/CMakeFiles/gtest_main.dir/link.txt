@@ -1,0 +1,2 @@
+/usr/bin/avr-ar qc libgtest_main.a  CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
+/usr/bin/avr-ranlib libgtest_main.a

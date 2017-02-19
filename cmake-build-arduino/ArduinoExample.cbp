@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ArduinoExample"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Platform\;CMake Files\example\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upload">
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 upload"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="blink">
+				<Option output="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/blink.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 blink"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="blink/fast">
+				<Option output="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/blink.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 blink/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="blink-size">
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 blink-size"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Changer_lib">
+				<Option output="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/libChanger_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 Changer_lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Changer_lib/fast">
+				<Option output="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/libChanger_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 Changer_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="blink-upload">
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 blink-upload"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="blink_lib">
+				<Option output="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/libblink_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 blink_lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="blink_lib/fast">
+				<Option output="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/libblink_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 blink_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_example">
+				<Option output="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/libuno_example.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 uno_example"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_example/fast">
+				<Option output="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/libuno_example.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 uno_example/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_CORE">
+				<Option output="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/libuno_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 uno_CORE"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_CORE/fast">
+				<Option output="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/libuno_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 uno_CORE/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/example/ArduinoImplementation.cpp">
+			<Option target="uno_example"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/example/ArduinoImplementation.h">
+			<Option target="uno_example"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/example/ArduinoWrapper.h">
+			<Option target="uno_example"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/example/PrintOnChange.cpp">
+			<Option target="Changer_lib"/>
+			<Option target="uno_example"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/example/PrintOnChange.h">
+			<Option target="Changer_lib"/>
+			<Option target="uno_example"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/example/blink.cpp">
+			<Option target="blink"/>
+			<Option target="uno_example"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/example/blink_lib.cpp">
+			<Option target="blink_lib"/>
+			<Option target="uno_example"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/example/blink_lib.h">
+			<Option target="blink_lib"/>
+			<Option target="uno_example"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Arduino.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Client.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Platform.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Print.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Printable.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Server.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Stream.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/USBAPI.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/USBDesc.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Udp.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/WCharacter.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/WString.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/avr-libc/malloc.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/avr-libc/realloc.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/avr-libc/sectionname.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/avr-libc/stdlib_private.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/binary.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/new.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/wiring_private.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/cmake/ArduinoToolchain.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/cmake/ArduinoToolchain.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/cmake/Platform/Arduino.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/cmake/Platform/Arduino.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/cmake/Platform/Arduino.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/arduino-cmake/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

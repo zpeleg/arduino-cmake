@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/CMakeFiles/gmock"
+		},
+		
+		{
+			"file" : "/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/CMakeFiles/gmock.rule"
+		},
+		
+		{
+			"file" : "/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/CMakeFiles/gmock-complete.rule"
+		},
+		
+		{
+			"file" : "/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/gmock/src/gmock-stamp/gmock-install.rule"
+		},
+		
+		{
+			"file" : "/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/gmock/src/gmock-stamp/gmock-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/gmock/src/gmock-stamp/gmock-download.rule"
+		},
+		
+		{
+			"file" : "/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/gmock/src/gmock-stamp/gmock-update.rule"
+		},
+		
+		{
+			"file" : "/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/gmock/src/gmock-stamp/gmock-patch.rule"
+		},
+		
+		{
+			"file" : "/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/gmock/src/gmock-stamp/gmock-configure.rule"
+		},
+		
+		{
+			"file" : "/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gmock/gmock/src/gmock-stamp/gmock-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "gmock" ],
+		"name" : "gmock"
+	}
+}

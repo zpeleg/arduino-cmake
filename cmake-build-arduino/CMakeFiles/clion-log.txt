@@ -1,0 +1,70 @@
+/opt/clion-2016.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Arduino -DCMAKE_TOOLCHAIN_FILE=cmake/ArduinoToolchain.cmake -G "CodeBlocks - Unix Makefiles" /home/ziv/Code/arduino/arduino-cmake
+-- The CXX compiler identification is GNU 4.9.2
+-- The C compiler identification is GNU 4.9.2
+-- Arduino SDK version 1.0.5: /usr/share/arduino
+-- Check for working CXX compiler: /usr/bin/avr-g++
+-- Check for working CXX compiler: /usr/bin/avr-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/avr-gcc
+-- Check for working C compiler: /usr/bin/avr-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Generating blink_lib
+-- Generating Changer_lib
+-- Generating blink
+-- Configuring done
+CMake Warning (dev) at cmake/Platform/Arduino.cmake:983 (add_library):
+  Policy CMP0038 is not set: Targets may not link directly to themselves.
+  Run "cmake --help-policy CMP0038" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Target "uno_example" links to itself.
+Call Stack (most recent call first):
+  cmake/Platform/Arduino.cmake:1040 (setup_arduino_library)
+  cmake/Platform/Arduino.cmake:391 (setup_arduino_libraries)
+  example/CMakeLists.txt:13 (generate_arduino_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Platform/Arduino.cmake:983 (add_library):
+  Policy CMP0038 is not set: Targets may not link directly to themselves.
+  Run "cmake --help-policy CMP0038" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Target "uno_example" links to itself.
+Call Stack (most recent call first):
+  cmake/Platform/Arduino.cmake:1040 (setup_arduino_library)
+  cmake/Platform/Arduino.cmake:391 (setup_arduino_libraries)
+  example/CMakeLists.txt:13 (generate_arduino_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Platform/Arduino.cmake:983 (add_library):
+  Policy CMP0038 is not set: Targets may not link directly to themselves.
+  Run "cmake --help-policy CMP0038" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Target "uno_example" links to itself.
+Call Stack (most recent call first):
+  cmake/Platform/Arduino.cmake:1040 (setup_arduino_library)
+  cmake/Platform/Arduino.cmake:391 (setup_arduino_libraries)
+  example/CMakeLists.txt:13 (generate_arduino_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Platform/Arduino.cmake:983 (add_library):
+  Policy CMP0038 is not set: Targets may not link directly to themselves.
+  Run "cmake --help-policy CMP0038" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Target "uno_example" links to itself.
+Call Stack (most recent call first):
+  cmake/Platform/Arduino.cmake:1040 (setup_arduino_library)
+  cmake/Platform/Arduino.cmake:391 (setup_arduino_libraries)
+  example/CMakeLists.txt:13 (generate_arduino_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/ziv/Code/arduino/arduino-cmake/cmake-build-arduino

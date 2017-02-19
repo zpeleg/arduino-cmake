@@ -5,18 +5,21 @@
  
   This example code is in the public domain.
  */
-#if ARDUINO >= 100
-    #include "Arduino.h"
-#else
-    #include "WProgram.h"
-#endif
+#include "ArduinoWrapper.h"
 
 #include "blink_lib.h"
+#include "PrintOnChange.h"
+#include "ArduinoRandom.h"
 
-void setup() {                
+PrintOnChange p;
+ArduinoRandom rand;
+void setup() {
     blink_setup(); // Setup for blinking
+    p = PrintOnChange(2);
 }
 
 void loop() {
-    blink(1000); // Blink for a second
+    p.Run();
+    long r = rand.random(10, 1000);
+    blink((unsigned long)r); // Blink for a second
 }

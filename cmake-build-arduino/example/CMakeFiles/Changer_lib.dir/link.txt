@@ -1,0 +1,2 @@
+/usr/bin/avr-ar qc libChanger_lib.a  CMakeFiles/Changer_lib.dir/PrintOnChange.cpp.obj
+/usr/bin/avr-ranlib libChanger_lib.a

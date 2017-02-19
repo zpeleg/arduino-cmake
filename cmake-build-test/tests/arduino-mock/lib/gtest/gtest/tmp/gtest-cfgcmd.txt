@@ -1,0 +1,1 @@
+cmd='/opt/clion-2016.3.2/bin/cmake/bin/cmake;-GCodeBlocks - Unix Makefiles;/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/src/gtest'

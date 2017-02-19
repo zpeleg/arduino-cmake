@@ -1,0 +1,13 @@
+# Target labels
+ gtest
+# Source files and their labels
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/CMakeFiles/gtest
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/CMakeFiles/gtest.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/CMakeFiles/gtest-complete.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/src/gtest-stamp/gtest-install.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/src/gtest-stamp/gtest-mkdir.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/src/gtest-stamp/gtest-download.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/src/gtest-stamp/gtest-update.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/src/gtest-stamp/gtest-patch.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/src/gtest-stamp/gtest-configure.rule
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/src/gtest-stamp/gtest-build.rule

@@ -1,0 +1,4 @@
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/src/gtest-build/CMakeFiles/edit_cache.dir
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/src/gtest-build/CMakeFiles/gtest_main.dir
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/src/gtest-build/CMakeFiles/rebuild_cache.dir
+/home/ziv/Code/arduino/arduino-cmake/cmake-build-test/tests/arduino-mock/lib/gtest/gtest/src/gtest-build/CMakeFiles/gtest.dir

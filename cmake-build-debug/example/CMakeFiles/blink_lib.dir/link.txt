@@ -1,0 +1,2 @@
+/usr/bin/avr-ar qc libblink_lib.a  CMakeFiles/blink_lib.dir/blink_lib.cpp.obj
+/usr/bin/avr-ranlib libblink_lib.a
